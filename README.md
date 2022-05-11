@@ -28,8 +28,6 @@ Running `npm start` will start the webpack dev server with hot-reloading turned 
 
 Click on the headset icon on the bottom left corner to view in immersive mode.
 
-![Click on the glasses icon on the bottom left](assets/images/tsconf.png | width=300)
-
 The entry point for the entire TypeScript application is `./src/index.ts` . Any other file imported in this file will be included in the build.
 
 To debug, open the browser's dev tool. Source maps are ready to be used. In case you are using VSCode, simply run the default debugger task ( `Launch Chrome against localhost` ) while making sure `npm start` is still running. This will allow you to debug your application straight in your editor.
